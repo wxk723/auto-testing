@@ -318,3 +318,9 @@ npx playwright install webkit
 ```bash
 npx playwright test --project=firefox
 ```
+# 参考文章
+- [playwright最详细使用教程](https://blog.csdn.net/m0_51156601/article/details/126886040)
+- [爬虫利器](https://cuiqingcai.com/36045.html)
+
+# 项目地址
+- [auto-testing](https://github.com/wxk723/auto-testing)
