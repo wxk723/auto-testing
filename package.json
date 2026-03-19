@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:file": "node scripts/test-file.js",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "codegen": "node scripts/codegen.js",
+    "codegen:auth": "node scripts/codegen-auth.js",
+    "report": "playwright show-report",
+    "login:save": "playwright test tests/erp-login.spec.ts --headed",
+    "test:mobile": "playwright test tests/erp-login-mobile.spec.ts --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "dotenv": "^17.3.1"
+  }
+}

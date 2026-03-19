@@ -1,0 +1,7 @@
+node_modules
+playwright-report
+test-results
+
+# 环境配置
+.env
+!.env.example
